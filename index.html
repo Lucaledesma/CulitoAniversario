@@ -23,31 +23,25 @@
                 <li class="nav-item">
                     <a href="#intro">
                         <i class="bi bi-person"></i>
-                        <small class="nav-item__desc">Introducción</small>
+                        <small class="nav-item__desc">Introduccion</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about">
+                    <a href="#nosotros">
                         <i class="bi bi-mortarboard"></i>
-                        <small class="nav-item__desc">¿Cómo nos conocimos?</small>
+                        <small class="nav-item__desc">Nosotros</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills">
+                    <a href="#recuerdos">
                         <i class="bi bi-code"></i>
-                        <small class="nav-item__desc">Skills</small>
+                        <small class="nav-item__desc">Recuerdos</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#proyectos">
+                    <a href="#canciones">
                         <i class="bi bi-briefcase"></i>
-                        <small class="nav-item__desc">Nuestras</small>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contacto">
-                        <i class="bi bi-telephone"></i>
-                        <small class="nav-item__desc">Nuestras canciones</small>
+                        <small class="nav-item__desc">Canciones</small>
                     </a>
                 </li>
             </ul>
@@ -62,12 +56,10 @@
     <main class="main">
 
         <section class="main-seccion" id="intro">
-            <article class="articles">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci esse illum nemo dolorem debitis inventore beatae excepturi iure. Hic earum quisquam quas sint repudiandae dignissimos rerum blanditiis in deserunt modi.</p>
-            </article>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt atque voluptates error? Magnam quibusdam vel minus, ducimus corrupti dignissimos! Quam quo error consequatur incidunt? Commodi animi dicta itaque doloribus.</p>
         </section>
 
-        <section class="main-seccion" id="about">
+        <section class="main-seccion" id="nosotros">
             <h2 class="titulo-seccion">¿Como nos conocimos?</h2>
             <article class="articles about-article">
                 <div class="about-img">
@@ -80,20 +72,44 @@
             </article>
         </section>
 
-        <section class="main-seccion" id="remember">
+        <section class="main-seccion" id="recuerdos">
             <h2 class="titulo-seccion">Recuerdos</h2>
             <article class="articles">
-                <div class="carrousel">
-                    <img class="elemento" src="./assets/imgs/Recuerdos/IMG_4226.jpg" alt="">
-                    <img class="elemento" src="./assets/imgs/Recuerdos/IMG_4434.jpg" alt="">
-                    <img class="elemento" src="./assets/imgs/Recuerdos/IMG_5650.jpg" alt="">
-                    <img class="elemento" src="./assets/imgs/Recuerdos/IMG_5987.jpg" alt="">
+
+                <div class="producto">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner carrusel">
+                          <div class="carousel-item active">
+                            <img src="./assets/imgs/Recuerdos/IMG_4226.jpg" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/imgs/Recuerdos/IMG_4434.jpg" class="d-block w-100" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/imgs/Recuerdos/IMG_5650.jpg" class="d-block w-100" alt="">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                  
+                    <div class="producto-descripcion">
+                        <p><b>CULITO</b></p>
+                        <p>Culito fue un culito muy bonito</p>
+                    </div>
                 </div>
+                  
             </article>
         </section>
 
-        <section class="main-seccion" id="songs">
-            <h2 class="titulo-seccion">¿Nuestras canciones?</h2>
+        <section class="main-seccion" id="canciones">
+            <h2 class="titulo-seccion">Nuestras canciones</h2>
             <article class="articles">
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Hol2H1MdopAKmHj9B317h?utm_source=generator" width="100%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </article>
