@@ -38,7 +38,7 @@ body{
 .header {
     background-color: var(--clr-pink);
     padding: .5rem 3rem;
-    color: var(--clr-white);
+    color: var(--clr-main);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +110,7 @@ body{
 .main {
     display: flex;
     flex-direction: column;
-    padding-inline: 2rem;
+    padding-inline: 1rem;
     gap: 1rem;
 }
 
@@ -125,13 +125,18 @@ body{
     gap: .5rem;
 }
 
-.main-seccion:nth-child(4) {
+.main-seccion:nth-child(5) {
     border: 0;
 }
 
 .articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: .5rem;
     padding-bottom: 1rem;
+    gap: 2rem;
 }
 
 /***** HERO *****/
@@ -140,9 +145,9 @@ body{
     flex-direction: column; 
     justify-content: end; 
     align-items: center;
-    color: white;
+    color: var(--clr-main);
 
-    background-image: url("../assets/imgs/index_img.jpg");
+    background-image: url("../assets/imgs/main_img.jpg");
     background-position: center center;
     background-size: cover;
     width: 100%;
@@ -177,9 +182,12 @@ body{
 .about-informacion {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 1rem;
+    padding-inline: .75rem;
+    height: 20rem;
+    overflow: scroll;
 }
 
 .about-informacion h2, .about-informacion h4 {
@@ -203,16 +211,16 @@ body{
     box-shadow: var(--box-shadow);
     border-radius: .8rem;
     background-color: var(--clr-recuerdo);
-    color: white;
+    color: var(--clr-main);
 }
 
 .producto-descripcion {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: .25rem;
     box-shadow: var(--box-shadow);
-    padding: 1rem;
+    padding-inline: 1rem;
+    padding-block: 1.5rem;
     margin-top: -.5rem;
     border-bottom-left-radius: .8rem;
     border-bottom-right-radius: .8rem;
