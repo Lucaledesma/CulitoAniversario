@@ -137,6 +137,7 @@ body{
     margin-top: .5rem;
     padding-bottom: 1rem;
     gap: 2rem;
+    
 }
 
 /***** HERO *****/
@@ -147,7 +148,7 @@ body{
     align-items: center;
     color: var(--clr-main);
 
-    background-image: url("../assets/imgs/main_img.jpg");
+    background-image: url("../assets/imgs/main_img.webp");
     background-position: center center;
     background-size: cover;
     width: 100%;
@@ -176,7 +177,10 @@ body{
 
 .about-img img {
     max-width: 100%;
+    width: 256px;
+    height: 225px;
     border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
 }
 
 .about-informacion {
@@ -200,9 +204,13 @@ body{
 
 /** CARRUSEL **/
 .carrusel {
-    width: 100%;
+    max-width: 100%;
     border-top-left-radius: .8rem;
     border-top-right-radius: .8rem;
+}
+
+.carousel img {
+    height: 380px;
 }
 
 /** RECUERDO **/
@@ -220,7 +228,8 @@ body{
     justify-content: center;
     box-shadow: var(--box-shadow);
     padding-inline: 1rem;
-    padding-block: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
     margin-top: -.5rem;
     border-bottom-left-radius: .8rem;
     border-bottom-right-radius: .8rem;
